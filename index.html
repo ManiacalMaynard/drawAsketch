@@ -12,8 +12,16 @@
 <body>
     
     <div id="container">
+        <div id="title">
+            <h1>Draw a Sketch!</h1>
+            <p>by maynard at maniacalindustries.com</p>
+        </div>
         <div id="etchBox"></div>
-        <button id="reset" onclick="resetGrid()">I am the reset button</button>
+        <div id="controls">
+            <label id="rangerValue" for="ranger"> </label>
+            <input type="range" min="32" max="96" value="64" class="slider" id="ranger">
+            <button id="reset" onclick="resetGrid()">Reset</button>
+        </div>
     </div>
 
 </body>
