@@ -8,7 +8,7 @@ const container = document.getElementById('etchBox');
 let gridSize = document.getElementById('ranger').value;
 
 // Sets the baseline color for drawing
-let drawColor = "hsl(200, 80%, 50%";
+let drawColor = "hsl(200, 80%, 50%)";
 
 function changeColor(event) {
     event.target.style.backgroundColor = drawColor;
